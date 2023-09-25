@@ -36,7 +36,7 @@ class Me extends React.Component {
     return (
       <div>
         <div className="nav-bar">
-          <h1>Cool Guy</h1>
+          <h1 className="nav-bar-tab">Cool Guy</h1>
         </div>
         <div className="main-content">
           <h1 className="headshot-text">Aidan Tokarski</h1>
