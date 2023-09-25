@@ -1,0 +1,44 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #e7eff6;
+}
+
+.nav-bar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background-color: white;
+}
+
+.main-content {
+    top: 0px;
+    align-self: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 0px;
+    border-style: solid;
+    background: white;
+}
+
+.headshot-text {
+    text-align: center;
+    font-size: 100pt;
+}
+
+.headshot {
+    padding-block: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
