@@ -6,11 +6,12 @@ class Me extends React.Component {
   constructor(props) {
     super(props);
     this.descriptors = [
-      "Software Engineer",
-      "Data Engineer",
+      "Disc-Jockey of (Very) Local Renown",
       "Rocket League Afficianado",
+      "Alto Sax Wizard",
       "Ultimate Frisbee God",
-      "Speed Demon in the Rink",
+      "NECHA's 2nd Greatest Backchecker",
+      "Winter Sheltering Solutions Engineer"
     ];
     this.state = {
       count: 0,
@@ -33,15 +34,20 @@ class Me extends React.Component {
   }
 
   render() {
+
     return (
       <div>
-        <div className="nav-bar">
-          <h1 className="nav-bar-tab">Cool Guy</h1>
-        </div>
+        <nav className="nav-bar">
+          <h1 className="nav-bar-tab">Projects</h1>
+          <h1 className="nav-bar-tab">Contact Me</h1>
+        </nav>
         <div className="main-content">
           <h1 className="headshot-text">Aidan Tokarski</h1>
           <h2 className="headshot-descriptor">
-            {this.descriptors[this.state.count]}
+            Software Engineer, Data Engineer, and 
+          </h2>
+          <h2 className="headshot-descriptor">
+          {this.descriptors[this.state.count]}
           </h2>
           <img src={headshot} className="headshot" />
         </div>
