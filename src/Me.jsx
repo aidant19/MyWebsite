@@ -37,11 +37,7 @@ class Me extends React.Component {
 
     return (
       <div>
-        <nav className="nav-bar">
-          <h1 className="nav-bar-tab">Projects</h1>
-          <h1 className="nav-bar-tab">Contact Me</h1>
-        </nav>
-        <div className="main-content">
+        <div>
           <h1 className="headshot-text">Aidan Tokarski</h1>
           <h2 className="headshot-descriptor">
             Software Engineer, Data Engineer, and 
