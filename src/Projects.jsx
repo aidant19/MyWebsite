@@ -96,9 +96,9 @@ const Projects = () => {
         title="SWN-COV (January 2021)"
         text="Research project funded through UMass Dartmouth expanding upon Small-World-COVID simulator. Written in Python, application is designed to iterate on previous simulation work for evaluating efficiency of campus testing protocols."
         img1={swncovCode}
-        imgtext1="Python API manipulation framework"
+        imgtext1="Simulation functions"
         img2={swncovGUI}
-        imgtext2="C++ DLL logic"
+        imgtext2="GUI for parameter tuning, simulation, and graphing"
       />
       <Project
         title="RLGym State-Setting (July 2021)"
