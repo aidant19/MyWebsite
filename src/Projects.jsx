@@ -6,7 +6,7 @@ import rlreplayCode from "./assets/rlreplay_code.PNG";
 import rlreplayAnalysis from "./assets/rlreplay_analysis.PNG";
 import dravCode from "./assets/dravmmr_code.PNG";
 import dravOutput from "./assets/dravmmr_output.PNG";
-import rsctrackerDB from "./assets/rsctracker_db.PNG";
+import rsctrackerDB from "./assets/rsctracker_db.png";
 import rsctrackerAnalysis from "./assets/rsctracker_analysis.PNG";
 import whackCode from "./assets/whack_code.PNG";
 import whackDemo from "./assets/whack_demo.PNG";
@@ -92,7 +92,15 @@ const Projects = () => {
         img2={replayshotIG}
         imgtext2="Scenario played in-game"
       />
-            <Project
+      <Project
+        title="SWN-COV (January 2021)"
+        text="Research project funded through UMass Dartmouth expanding upon Small-World-COVID simulator. Written in Python, application is designed to iterate on previous simulation work for evaluating efficiency of campus testing protocols."
+        img1={swncovCode}
+        imgtext1="Python API manipulation framework"
+        img2={swncovGUI}
+        imgtext2="C++ DLL logic"
+      />
+      <Project
         title="RLGym State-Setting (July 2021)"
         text="Developed, integrated, and documented the state setting module for the reinforcement learning framework “RLGym”, used for reinforcement learning in Rocket League. Module enables developers to generate and simulate “drills” for agents. Implemented in both the Python API and back-end C++ injectable DLL."
         img1={rlgymCode}
