@@ -1,0 +1,58 @@
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+.project-header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    max-width: 49%;
+    height: auto;
+}
+
+.img-block {
+    display: table;
+}
+
+.img-container {
+    float: left;
+    position: relative;
+    margin: auto;
+    width: 50%;
+}
+
+.img-container:hover .img-overlay {
+    opacity: 1;
+  }
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e7eff6;
+  }
+
+.img-overlay.mvp {
+    top: 30%;
+    height: 70%;
+}
+
+.img-text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
