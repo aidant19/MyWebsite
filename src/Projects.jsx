@@ -26,9 +26,10 @@ class Project extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1>{this.props.title}</h1>
-        <p1>{this.props.text}</p1>
+      <div className="project-container">
+        <h1 className="project-title">{this.props.title}</h1>
+        <h1 className="project-date">{this.props.date}</h1>
+        <p1 className="project-text">{this.props.text}</p1>
         <div className="img-block">
           <div
             className="img-container"
@@ -63,7 +64,7 @@ class EnlargedImage extends React.Component {
     if (this.props.visible)
       return (
         <div className="enlarged-popup">
-          <div className="enlarged-background" />   
+          <div className="enlarged-background" />
           <img src={this.props.imgSrc} className="enlarged-image" />
         </div>
       );
@@ -96,7 +97,8 @@ class ProjectsWrapper extends React.Component {
           visible={this.state.imgEnlarged}
         />
         <Project
-          title="Albstat (June 2020)"
+          title="Albstat"
+          date="June 2020"
           text="First-of-its-kind database and supporting Java software for gameplay analysis of Albion Online’s “Crystal League” matches. Data extracted from the Albion Online public API, transformed, and loaded with JDBC into a SQL database (originally MySQL, later PostgreSQL)."
           img1={albstatDB}
           imgtext1="Albstat database"
@@ -105,7 +107,8 @@ class ProjectsWrapper extends React.Component {
           onImgClick={this.onImgClick.bind(this)}
         />
         <Project
-          title="RLReplay (August 2020)"
+          title="RLReplay"
+          date="August 2020"
           text="Java-driven tool used for scouting in competitive Rocket League environments. Capable of collecting game replays, player data, and league information from online sources. Game replays are parsed, known player IDs are matched to individual players, and current player organization affiliations are appended for producing a formatted match tabulation file which can be used for analysis of player performance across many matches compared to their peers."
           img1={rlreplayCode}
           imgtext1="Data collection code"
@@ -114,7 +117,8 @@ class ProjectsWrapper extends React.Component {
           onImgClick={this.onImgClick.bind(this)}
         />
         <Project
-          title="dravMMR (August 2020)"
+          title="dravMMR"
+          date="August 2020"
           text="Originally an emergency rewrite of a data collection tool used in Rocket League scouting for querying player data, later adopted by RSC league administration for player skill evaluation and tier placement. Written in Python, overhauling freshly-broken, synchronous architecture to support new protocols of data source as well as pull and collate data asynchronously."
           img1={dravCode}
           imgtext1="Data collection code"
@@ -123,7 +127,8 @@ class ProjectsWrapper extends React.Component {
           onImgClick={this.onImgClick.bind(this)}
         />
         <Project
-          title="RSCTracker (September 2020)"
+          title="RSCTracker"
+          date="September 2020"
           text="MySQL Database and supporting Java program for performing statistical analysis across the entire RSC League. Tracks player data and statistics, combining work on RLReplay and dravMMR with expanded functionality in order to enable the development, testing, and application of novel player evaluation algorithms."
           img1={rsctrackerDB}
           imgtext1="RSCTracker database"
@@ -132,7 +137,8 @@ class ProjectsWrapper extends React.Component {
           onImgClick={this.onImgClick.bind(this)}
         />
         <Project
-          title="Small-World-COVID (November 2020)"
+          title="Small-World-COVID"
+          date="November 2020"
           text="Java simulation of real-world network dynamics based on hyperbolic graph theory, utilized in modeling the spread of COVID-19. Developed at the 2020 Wellesley College Hackathon (WHACK 2020), and served as the basis for future research."
           img1={whackCode}
           imgtext1="Hyperbolic graph generation code"
@@ -141,7 +147,8 @@ class ProjectsWrapper extends React.Component {
           onImgClick={this.onImgClick.bind(this)}
         />
         <Project
-          title="ReplayShot (November 2020)"
+          title="ReplayShot"
+          date="November 2020"
           text="A modification for Rocket League written in C++ and injected via DLL which allows for players to train in scenarios taken from a previously-played match."
           img1={replayshotCode}
           imgtext1="Car manipulation code"
@@ -150,7 +157,8 @@ class ProjectsWrapper extends React.Component {
           onImgClick={this.onImgClick.bind(this)}
         />
         <Project
-          title="SWN-COV (January 2021)"
+          title="SWN-COV"
+          date="January 2021"
           text="Research project funded through UMass Dartmouth expanding upon Small-World-COVID simulator. Written in Python, application is designed to iterate on previous simulation work for evaluating efficiency of campus testing protocols."
           img1={swncovCode}
           imgtext1="Simulation functions"
@@ -159,7 +167,8 @@ class ProjectsWrapper extends React.Component {
           onImgClick={this.onImgClick.bind(this)}
         />
         <Project
-          title="RLGym State-Setting (July 2021)"
+          title="RLGym State-Setting"
+          date="July 2021"
           text="Developed, integrated, and documented the state setting module for the reinforcement learning framework “RLGym”, used for reinforcement learning in Rocket League. Module enables developers to generate and simulate “drills” for agents. Implemented in both the Python API and back-end C++ injectable DLL."
           img1={rlgymCode}
           imgtext1="Python API manipulation framework"

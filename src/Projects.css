@@ -32,18 +32,31 @@ img {
   z-index: 2;
 }
 
+.project-title {
+  font-size: 4em;
+  margin-top: 1.5em;
+  color: #213547;
+  margin-bottom: 0em;
+}
 
-.project-header {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    max-width: 49%;
-    height: auto;
+.project-date {
+  margin-top: -0.25em;
+  font-size: 2em;
+  color: #213547
+}
+
+.project-text {
+  color: black;
+  margin-bottom: 10em;
+}
+
+.project-container {
+  margin-bottom: 20vh;
 }
 
 .img-block {
     display: table;
+    margin-top: 1.5em;
 }
 
 .img-container {

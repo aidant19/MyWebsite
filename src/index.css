@@ -10,6 +10,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+body {
+  font-size: 100%;
+}
+
 .main-body {
   margin: auto;
   top: 0px;
@@ -30,7 +34,7 @@
   top: 0;
   top: 0;
   left: 0;
-  z-index: 0;
+  z-index: 10;
   background: #2a4d69;
   color: white;
   font-size: 12pt;
