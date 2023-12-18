@@ -7,11 +7,11 @@
 body {
     margin: 0px;
     padding: 0px;
-    background: #e7eff6;
+    background: #9BA4B5;
 }
 
 .headshot-text {
-    color: #213547;
+    color: #F1F6F9;
     text-align: center;
     font-size: 5em;
     margin-bottom: 10px;
@@ -22,7 +22,7 @@ body {
     font-size: 25px;
     margin-top: 5px;
     margin-bottom: 5px;
-    color:  #4b86b4;
+    color:  #9BA4B4;
 }
 
 .headshot {

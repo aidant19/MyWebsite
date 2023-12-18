@@ -35,18 +35,18 @@ img {
 .project-title {
   font-size: 4em;
   margin-top: 1.5em;
-  color: #213547;
+  color: #F1F6F9;
   margin-bottom: 0em;
 }
 
 .project-date {
-  margin-top: -0.25em;
-  font-size: 2em;
-  color: #213547
+  margin-top: -0.5em;
+  font-size: 1.5em;
+  color: #F1F6F9;
 }
 
 .project-text {
-  color: black;
+  color: #9BA4B4;
   margin-bottom: 10em;
 }
 
@@ -60,10 +60,8 @@ img {
 }
 
 .img-container {
-    float: left;
     position: relative;
     margin: auto;
-    width: 50%;
 }
 
 .img-container:hover .img-overlay {
@@ -82,11 +80,6 @@ img {
     transition: .5s ease;
     background-color: #e7eff6;
   }
-
-.img-overlay.mvp {
-    top: 30%;
-    height: 70%;
-}
 
 .img-text {
     color: black;

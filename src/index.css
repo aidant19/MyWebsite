@@ -22,8 +22,8 @@ body {
   padding-right: 10%;
   padding-top: 25px;
   border-style: solid;
-  border-color: #213547;
-  background: white;
+  border-color: #14274E;
+  background: #14274E;
   width: 50%;
   z-index: 1;
 }
@@ -35,7 +35,7 @@ body {
   top: 0;
   left: 0;
   z-index: 10;
-  background: #2a4d69;
+  background: #394867;
   color: white;
   font-size: 12pt;
   margin: 0;
