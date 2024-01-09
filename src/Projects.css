@@ -33,7 +33,7 @@ img {
 }
 
 .project-title {
-  font-size: 4em;
+  font-size: 4vw;
   margin-top: 1.5em;
   color: #F1F6F9;
   margin-bottom: 0em;
@@ -47,7 +47,7 @@ img {
 
 .project-text {
   color: #9BA4B4;
-  margin-bottom: 10em;
+  margin-bottom: 2vw;
 }
 
 .project-container {
